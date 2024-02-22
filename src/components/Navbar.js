@@ -7,9 +7,9 @@ import Sidebar from "./MovingNavbar";
 const Navbar = () => {
   return (
     <>
-      <div className="bg-[#080D29] w-full flex justify-between h-20 p-4 items-center text-white relative ">
+      <div className="bg-[#080D29] w-full flex justify-between h-20 p-4 items-center text-white relative border-t-2 border-yellow-500">
         <Sidebar />
-        
+
         <div className="flex gap-7 items-center text-xs font-normal pl-12 flex-wrap">
           <span className="flex gap-4 items-center">
             <Arrow />
@@ -44,7 +44,6 @@ const Navbar = () => {
             <AddPerson />
           </p>
         </div>
-      
       </div>
       <UnderFotterBar />
     </>
